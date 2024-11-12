@@ -108,7 +108,19 @@
     .block4 p {
         font-size: 18px;
     }
-    
+
+    .check-icon12,
+    .check-icon22,
+    .check-icon32,
+    .check-icon4,
+    .check-icon5,
+    .check-icon6,
+    .check-icon7 {
+        width: 32px;
+        height: 32px;
+        margin-top: -8px;
+        margin-right: 12px;
+    }
     .strila {
         width: 60px;
         height: 60px;
@@ -486,18 +498,3 @@
     vertical-align: middle;
 }
 
-/* Налаштування для дисплея 1920px */
-@media (min-width: 1920px) {
-    .check-icon1 { margin-left: -5px; margin-top: -205px; }
-    .check-icon2 { margin-left: 5px; margin-top: -20px; }
-    .check-icon3 { margin-left: 35px; margin-top: -8px; }
-    .check-icon4 { margin-left: 8px; margin-top: -10px; }
-    .check-icon5 { margin-left: -84px; margin-top: -5px; }
-    .check-icon6 { margin-left: 35px; margin-top: -8px; }
-    .check-icon7 { margin-left: -90px; margin-top: -10px; }
-    .check-icon8 { margin-left: -90px; margin-top: -5px; }
-    .check-icon9 { margin-left: -90px; margin-top: -5px; }
-    .check-icon12 { margin-left: 85px; margin-top: -10px; }
-    .check-icon22 { margin-left: -85px; margin-top: -5px; }
-    .check-icon32 { margin-left: 65px; margin-top: -8px; }
-}
